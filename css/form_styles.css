@@ -1,0 +1,26 @@
+@charset "UTF-8"; 
+
+/* Jeff Bohn , 11/5/2020 */
+   
+button, input, select, textarea {
+   	font-family: inherit;
+   	font-size: 100%
+}
+input, textarea, select {
+   	box-sizing: border-box;
+}
+label {
+	display: block;
+}
+fieldset {
+   	border-width: 0;
+	padding: 0;
+	margin: 20px;
+	line-height: 25px;
+}
+.like{
+	margin-left: 20px;
+}
+.button{
+	margin-left: 20px;
+}

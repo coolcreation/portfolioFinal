@@ -1,0 +1,213 @@
+@charset "UTF-8"; 
+
+/* Jeff Bohn - Portfolio CSS - 10/29/2020 */
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}   
+ 
+.googFont{
+    font-family: "Itim", Verdana, Times, san-serif; 
+    float: right;
+}
+.googQuotes{
+    float: right;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+/*article, aside, details, dl, figcaption, figure, footer, header, main, nav, section {
+	display: block;
+}*/
+
+
+.titleHeader{
+    text-align: center;
+ }
+ body{
+    background-image: linear-gradient(black,red 60%, blue, black);
+    background-size: cover;
+    background-position: center center;
+}
+ #outerBox{
+    width: auto;
+    height: 100%;
+    background-color: #758096;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    border-radius: 22px;
+ }
+ .myPicture{
+    margin-left: 0%;
+    margin-top: -30px;
+    margin-bottom: 25px;
+}
+
+head{
+    background-color: #4892e5;
+    color: white;
+    padding: 10px;
+}
+h1{
+    font-family: "kaushan_scriptregular", Charcoal, Times, san-serif; 
+    /* Select a font from the https://www.fontsquirrel.com/ website*/
+    font-size: 2em;
+}
+h4{
+    margin-top: 90px;
+    margin-left: 130px;
+    margin-right: 120px;
+    font-size: 22px;
+    font-family: Verdana, Times, san-serif; 
+    font-weight: 100;
+}
+/*nav{
+    width: 1175px;
+    background-color: #E7DBF6;
+    float: top;
+} */
+
+article{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    padding: 60px;
+    font-size: 1.3rem;
+}
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    padding: 60px;
+    font-size: 1.2rem;
+    padding-bottom: 200px;
+}
+span.color{
+    color: rgb(49, 49, 150);
+}
+.bullets{
+    margin-top: 100px;
+    margin-left: 175px;
+    font-size: 22px;
+}
+
+ul.img {
+    list-style-image: url('../images/canva-photo-editor(3).png');
+    list-style-position: inside;
+    /*padding-top: -5px;*/
+    }	
+
+    /*** MENU BAR ***/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-area li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 40px;   /* menu bar height */
+    position: relative;
+    z-index: 1;
+}
+.menu-area li{
+    list-style: none;
+    display: inline-block;
+}
+.custom-padding{
+    padding-top: 25px;
+}
+
+nav{
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    z-index: 1;
+    background: #333;
+    margin: 0 auto;
+    width: calc(100% - 80px);
+}
+.logo{
+    width: 13%;
+    float: left;
+    margin-left:20px;
+}
+
+.menu-area li a:hover{
+    background: tomato;
+    color: white !important;
+}
+nav:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border-top: 10px solid #333;
+    border-right: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+nav:after{
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+}
+
+/* FOOTER */
+
+address{
+    padding-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 700; 
+}
+footer {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:white;
+  }  
+  .upArrow{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #D6E3F0;
+    padding: 0.25rem;
+    margin-bottom: 4px;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:hover{
+    color: limegreen !important;
+  }
+  a.active{
+    color: blue;
+  }
+  a:visited {
+    color: blue;
+    text-decoration: none;
+  }

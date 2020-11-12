@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Jeff  10/29/2020 -->
+<html lang="en">
+
+   <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Class Porfolio Project">
+    <meta name="keywords" content="Html, CSS, Cascading Style Sheets">
+    <meta name="author" content="Jeff Bohn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Itim&display=swap">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/form_styles.css">
+	
+    <title>Contact</title>
+
+	</head>
+	<body>
+		<div id="outerBox">
+	       <header class="top">
+				<h1 class="titleHeader">CSS & HTML Portfolio</h1>
+			</header>
+            
+            <nav>
+				<a href="index.html"><img class="logo" src="images/canva-photo-editor.png" title="Logo" alt="Logo"></a>
+				<ul class="menu-area">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="education.html">Education</a></li>
+					<li><a href="work_experience.html">Work Experience</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+		<main>
+			<h2>Please contact me with any questions or concerns,<span class="color"> thank you.</span></h2><br>
+	 <form action="mailto:jeffbohn@my.cwi.edu?subject=PersonalPortfolioMail" enctype="text/plain" method="POST">
+		<!-- <form action="" id="questions" method="post" name="questions"> -->
+	<fieldset>
+        <label for="name">Name</label><input type="text" id="name" name="name" size="40"><br>
+		<label for="email">Email</label><input type="email" id="email" name="email" size="40"><br>
+		<label for="website">Website URL</label><input type="url" id="website" name="website" size="40"><br>
+		<label for="phone">Phone</label><input type="tel" id="phone" name="phone"><br>
+		<label for="message">Message</label><textarea cols="50" rows="7" name="message"></textarea><br>
+	</fieldset>
+			
+	<div class="like">
+				
+			<p>Did you like this website?</p>
+		    <label for="yes">Yes</label><input type="radio" name="yes" value="yes" id="yes">
+		    <label for="no">No</label><input type="radio" name="yes" value="no" id="no"></div>
+	 
+	 <fieldset>
+		<p>How would you rate this website (1 being the best):</p> 
+		<select name="score" id="score" size="1">
+			<optgroup label="Score">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			  </optgroup>
+		</select>
+		
+		</fieldset>
+
+		<div class="button">
+	   <p><input type="submit" value="Submit">&nbsp;<input type="reset"></p></div>
+	   
+		</form>
+	</main>
+		<footer>
+			<br>
+			<p><a href="https://www.facebook.com/" target="_blank"><img src="images/icon_facebook.png" alt="social icon for facebook"></a>
+			<a href="https://www.linkedin.com/" target="_blank"><img src="images/icon_linkedin.png" alt="social icon for linkedin"></a><br>
+			<a href="https://www.github.com/" target="_blank"><img src="images/icon_github.png" alt="social icon for github"></a><br>
+			&#11160; Created 2020 by Jeff	&#11162;<br/><br/>
+			<address>
+			Contact by phone: <a href="tel:+01-928-555-3611">928-555-3611</a>&nbsp;&nbsp; or email: <a href="mailto:jeffbohn@my.cwi.edu">jeffbohn@my.cwi.edu</a><br>
+			<!-- <p>Click <a href="#top">here</a> to jump to the top of the page</p> -->
+		</address>
+		 <div class="upArrow"><a href="#top" aria-label="Scroll to Top" >&#10224;</a>
+			  </div>To the top
+		
+	</footer>
+	</div>
+</body>
+</html>
